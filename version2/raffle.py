@@ -10,5 +10,6 @@ from customers import get_customers_from_file, Customer
 file_name = "customers.txt"
 
 rand_cust = choice(get_customers_from_file(file_name))
-print(rand_cust)
+
+print(f'{rand_cust.name} you are the lucky winner! We will email you at {rand_cust.email} information on how to collect your prize!')
 
