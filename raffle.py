@@ -39,8 +39,7 @@ def get_customers_from_file(customer_file_path):
     return customers
 
 
-def pick_winner(customers):
-    """Choose a random winner from list of customers."""
+def pick_winner(customers): """Choose a random winner from list of customers."""
 
     chosen_customer = random.choice(customers)
     
